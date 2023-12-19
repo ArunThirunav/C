@@ -38,22 +38,21 @@ void findIndex(char* buff, uart_config_t* config){
 }
 
 
-
 int main(){
-    FILE* fp;
-    uart_config_t configValue;
-    char buff[255];
+    FILE* file_pointer;
+    uart_config_t config_value;
+    char buffer[255];
     int device_address = 0;
     int baud_rate = 0;
     int data_bits = 0;
-    memset(buff, 0, sizeof(buff));
+    memset(buffer, 0, sizeof(buffer));
 
-    fp = fopen("data.cfg", "r");
+    file_pointer = fopen("data.cfg", "r");
 
-    fgets(buff, sizeof(buff), fp);
-    findIndex(buff, &configValue);
-    printf("device_address: %s\n", configValue.dev_address);
+    fgets(buffer, sizeof(buffer), file_pointer);
+    findIndex(buffer, &config_value);
+    printf("device_address: %s\n", config_value.dev_address);
 
-    fclose(fp);
+    fclose(file_pointer);
     return 0;
 }
