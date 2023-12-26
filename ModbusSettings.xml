@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE SETTINGS[]>
+<SETTINGS>
+  <Group name="ModbusSettings">
+    <ModbusSettingsName name="MODBUSADDRESS" value="165" />
+    <ModbusSettingsName name="COMPORT" value="COM8" />
+    <ModbusSettingsName name="BAUDRATE" value="19200" />
+    <ModbusSettingsName name="DATABIT" value="8" />
+    <ModbusSettingsName name="PARITYBIT" value="Even" />
+    <ModbusSettingsName name="STOPBIT" value="1" />
+  </Group>
+</SETTINGS>
