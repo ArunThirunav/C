@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE SETTINGS["DO NOT EDIT THE ORDER"]>
+<SETTINGS>
+  <Group name="ModbusSettings">
+    <ModbusSettingsName name="MODBUSADDRESS" value="01" />
+    <ModbusSettingsName name="BAUDRATE" value="9600" />
+    <ModbusSettingsName name="DATABIT" value="8" />
+    <ModbusSettingsName name="PARITYBIT" value="Even" />
+    <ModbusSettingsName name="STOPBIT" value="1" />
+  </Group>
+</SETTINGS>

@@ -1,0 +1,11 @@
+#ifndef DATA_HANDLER_H
+#define DATA_HANDLER_H
+
+#define MODBUSADDRESS "MODBUSADDRESS"
+#define COMPORT "COMPORT"
+#define BAUDRATE "BAUDRATE"
+#define DATABIT "DATABIT"
+#define PARITYBIT "PARITYBIT"
+#define STOPBIT "STOPBIT"
+
+#endif // End of Data Handler
