@@ -2,8 +2,8 @@
 <!DOCTYPE SETTINGS[]>
 <SETTINGS>
   <Group name="ModbusSettings">
-    <ModbusSettingsName name="MODBUSADDRESS" value="165" />
-    <ModbusSettingsName name="BAUDRATE" value="19200" />
+    <ModbusSettingsName name="MODBUSADDRESS" value="10" />
+    <ModbusSettingsName name="BAUDRATE" value="57600" />
     <ModbusSettingsName name="DATABIT" value="8" />
     <ModbusSettingsName name="PARITYBIT" value="Even" />
     <ModbusSettingsName name="STOPBIT" value="1" />
